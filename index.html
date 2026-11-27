@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота №2 — Варіант 8</title>
 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        #main-title {
+            color: #2c3e50;
+        }
+
+        .highlight {
+            background-color: yellow;
+            padding: 2px 5px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="main-title">Лабораторна робота №2 (CSS)</h1>
+        <p style="color: #555; font-style: italic;">
+            Приклад <span class="highlight">рядкового елемента</span> всередині блокового абзацу.
+        </p>
+    </header>
+
+    <div class="box">
+        <h2>Вертикальне меню навігації (Варіант 8)</h2>
+        <ul class="menu">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+
+    <div class="box">
+        <h2>Кнопка з CSS-анімацією (Варіант 8)</h2>
+        <div class="btn-area">
+            <button class="jump-btn">Button</button>
+        </div>
+    </div>
+
+    <div class="box float-wrap">
+        <h2>Обтікання елемента (float)</h2>
+        <div class="float-block">Float left</div>
+        <p>
+            Цей текст обтікає зелений блок праворуч завдяки властивості <strong>float: left</strong>.
+        </p>
+    </div>
+
+    <div class="box pos-parent">
+        <h2>Позиціонування (position)</h2>
+        <p>Цей блок має <code>position: relative</code>, а червона мітка праворуч зверху — <code>position: absolute</code>.</p>
+        <span class="pos-badge">Absolute</span>
+    </div>
+
+    <!-- Фіксований елемент -->
+    <div class="fixed-box">Варіант 8 (fixed)</div>
+
+</body>
+</html>
